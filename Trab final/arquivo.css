@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    font-family: 'Courier New', Courier , monospace, sans-serif;
+    gap: 20px;
+    line-height: 2.0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe9b7;
+    padding: 30px 0px 0;
+}
+
+
+header {
+    background-color: #ca9834;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 40px 1px 1;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: rgb(102, 78, 23);
+    text-decoration: none;
+}
+
+
+main {
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+section {
+    margin: 30px 0;
+}
+
+#projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 1px;
+}
+
+form input {
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #ff6f00;
+    border-radius: 3px;
+}
+
+form button {
+    padding: 15px;
+    background-color: #807e7e;
+    color: white;
+    border: 2px solid #ff6f00;
+    border-radius: 3px;
+}
+
+
+
+footer{
+    background-color: #ca9834;
+    color: #fff;
+    text-align:center;
+    width: 100%;
+    padding: 40px 1px 1;
+
+}
+
+
+
